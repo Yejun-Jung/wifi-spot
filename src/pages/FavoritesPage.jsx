@@ -32,11 +32,11 @@ const FavoritesPage = () => {
                 className='text-xs text-slate-600 hover:text-slate-900 underline'
                 to='/map'
                 state={{seletedSpot:item}}>지도보기</Link>
+              </div>
                 <button
                 className='text-lg cursor-pointer select-none'
                 aria-label='즐겨찾기 제거'
-                onClick={()=>remove(item)}>❤</button>
-              </div>
+                onClick={()=>remove(item)}>🗑️</button>
             </li>
             
           ))}

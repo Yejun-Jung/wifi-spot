@@ -93,7 +93,7 @@ const MapPage = () => {
                                     role = 'button'
                                     aria-label={isFavorite(item)?'즐겨찾기 해제':'즐겨찾기 추가'}
                                 >
-                                    {isFavorite(item)? '❤' : '♡'}
+                                    {isFavorite(item)? '⭐' : '☆'}
                                 </span>
                             </div>
                         </li>
