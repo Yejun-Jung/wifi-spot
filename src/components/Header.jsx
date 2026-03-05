@@ -25,12 +25,12 @@ const Header = () => {
                         className={({ isActive }) =>
                             `${linkBase} ${isActive ? linkActive : linkIdle}`
                         }
-                        to="/favorites">favorites</NavLink>
+                        to="/favorites">Favorites</NavLink>
                     <NavLink
                         className={({ isActive }) =>
                             `${linkBase} ${isActive ? linkActive : linkIdle}`
                         }
-                        to="/about">about</NavLink>
+                        to="/about">About</NavLink>
                 </nav>
             </div>
         </header>
